@@ -2843,8 +2843,8 @@ public class psd {
         'TreeNode' = @{
             XMLText = @"
   <ContextMenuStrip Name="TreeNode">
-    <ToolStripMenuItem Name="MoveUp" ShortcutKeys="F5" Text="Move Up" ShortcutKeyDisplayString="F5" />
-    <ToolStripMenuItem Name="MoveDown" ShortcutKeys="F6" ShortcutKeyDisplayString="F6" Text="Move Down" />
+    <ToolStripMenuItem Name="MoveUp" ShortcutKeys="F9" Text="Move Up" ShortcutKeyDisplayString="F9"/>
+    <ToolStripMenuItem Name="MoveDown" ShortcutKeys="F10" Text="Move Down" ShortcutKeyDisplayString="F10"/>
     <ToolStripSeparator Name="Sep1" />
     <ToolStripMenuItem Name="CopyNode" ShortcutKeys="Ctrl+C" Text="Copy" ShortcutKeyDisplayString="Ctrl+C" />
     <ToolStripMenuItem Name="PasteNode" ShortcutKeys="Ctrl+P" Text="Paste" ShortcutKeyDisplayString="Ctrl+P" />
@@ -3096,18 +3096,18 @@ public class psd {
         <ToolStripMenuItem Name="CopyNode" Text="Copy Control" />
         <ToolStripMenuItem Name="PasteNode" Text="Paste Control" />
         <ToolStripSeparator Name="EditSep2" />
-        <ToolStripMenuItem Name="Move Up" ShortcutKeys="F5" Text="Move Up" ShortcutKeyDisplayString="F5" />
-        <ToolStripMenuItem Name="Move Down" ShortcutKeys="F6" Text="Move Down" ShortcutKeyDisplayString="F6" />
+        <ToolStripMenuItem Name="Move Up" ShortcutKeys="F9" Text="Move Up" ShortcutKeyDisplayString="F9" />
+        <ToolStripMenuItem Name="Move Down" ShortcutKeys="F10" Text="Move Down" ShortcutKeyDisplayString="F10" />
 	  </ToolStripMenuItem>
       <ToolStripMenuItem Name="ts_View" Text="View">
-        <ToolStripMenuItem Name="Toolbox" Checked="True" ShortcutKeys="F1" Text="Toolbox" ShortcutKeyDisplayString="F1" />
-        <ToolStripMenuItem Name="FormTree" Checked="True" ShortcutKeys="F2" DisplayStyle="Text" Text="Form Tree" ShortcutKeyDisplayString="F2" />
-        <ToolStripMenuItem Name="Properties" Checked="True" ShortcutKeys="F3" DisplayStyle="Text" Text="Properties" ShortcutKeyDisplayString="F3" />
-        <ToolStripMenuItem Name="Events" Checked="True" ShortcutKeys="F4" Text="Events" ShortcutKeyDisplayString="F4" />
+        <ToolStripMenuItem Name="Toolbox" Checked="True" Text="Toolbox"/>
+        <ToolStripMenuItem Name="FormTree" Checked="True" DisplayStyle="Text" Text="Form Tree"/>
+        <ToolStripMenuItem Name="Properties" Checked="True" DisplayStyle="Text" Text="Properties"/>
+        <ToolStripMenuItem Name="Events" Checked="True" Text="Events"/>
       </ToolStripMenuItem>
       <ToolStripMenuItem Name="ts_Tools" DisplayStyle="Text" Text="Tools">
-        <ToolStripMenuItem Name="Generate Script File" DisplayStyle="Text" Text="Generate Script File" />
-		<ToolStripMenuItem Name="RunLast" ShortcutKeys="F9" DisplayStyle="Text" Text="Save Events.ps1 and Run Last Generated" />
+        <ToolStripMenuItem Name="Generate Script File" ShortcutKeys="F4" DisplayStyle="Text" Text="Generate Script File" ShortcutKeyDisplayString="F4" />
+		<ToolStripMenuItem Name="RunLast" ShortcutKeys="F5" DisplayStyle="Text" Text="Save Events.ps1 and Run Last Generated" ShortcutKeyDisplayString="F5" />
       </ToolStripMenuItem>
     </MenuStrip>
 	<StatusStrip Name="sta_Status">
