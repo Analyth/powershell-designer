@@ -2647,10 +2647,10 @@ public class psd {
             XMLText = @"
   <Form Name="Generate" FormBorderStyle="FixedDialog" MaximizeBox="False" MinimizeBox="False" ShowIcon="False" ShowInTaskbar="False" Size="410, 420" StartPosition="CenterParent" Text="Generate Script File(s)">
     <GroupBox Name="gbx_DotSource" Location="25, 115" Size="345, 219" Text="Dot Sourcing">
-      <CheckBox Name="cbx_Functions" Location="25, 25" Text="Functions" />
-      <TextBox Name="tbx_Functions" Enabled="False" Location="165, 25" Size="150, 20" Text="Functions.ps1" />
-      <CheckBox Name="cbx_Events" Location="25, 55" Text="Events" />
-      <TextBox Name="tbx_Events" Enabled="False" Location="165, 55" Size="150, 20" Text="Events.ps1" />
+      <CheckBox Name="cbx_Functions" Location="25, 25" Text="Functions" Checked="True" />
+      <TextBox Name="tbx_Functions" Enabled="True" Location="165, 25" Size="150, 20" Text="Functions.ps1" />
+      <CheckBox Name="cbx_Events" Location="25, 55" Text="Events" Checked="True" />
+      <TextBox Name="tbx_Events" Enabled="True" Location="165, 55" Size="150, 20" Text="Events.ps1" />
       <CheckBox Name="cbx_ChildForms" Location="25, 85" Text="Child Forms" />
       <TextBox Name="tbx_ChildForms" Enabled="False" Location="165, 85" Size="150, 20" Text="ChildForms.ps1" />
       <CheckBox Name="cbx_Timers" Location="25, 115" Text="Timers" />
@@ -3043,16 +3043,16 @@ public class psd {
         </SplitterPanel>
       </SplitContainer>
     </Panel>
-    <Panel Name="pnl_Right" Dock="Right" BorderStyle="Fixed3D" Size="300, 737">
-      <SplitContainer Name="spt_Right" Dock="Fill" BackColor="ControlDark" Orientation="Horizontal" SplitterDistance="250">
+    <Panel Name="pnl_Right" Dock="Right" BorderStyle="Fixed3D" Size="600, 737">
+      <SplitContainer Name="spt_Right" Dock="Fill" BackColor="ControlDark" Orientation="Vertical" SplitterDistance="350">
         <SplitterPanel Name="spt_Right_Panel1">
           <PropertyGrid Name="PropertyGrid" ViewBackColor="Azure" Dock="Fill" />
         </SplitterPanel>
         <SplitterPanel Name="spt_Right_Panel2" BackColor="Control">
-          <Label Name="lbl_AvailableEvents" TextAlign="BottomCenter" Anchor="Top, Left, Right" Size="196, 23" Text="Available Events" />
-          <ListBox Name="lst_AvailableEvents" BackColor="Azure" Size="194, 125" Location="2, 30" Anchor="Top, Bottom, Left, Right" />
-          <Label Name="lbl_AssignedEvents" Anchor="Bottom, Left, Right" Text="Assigned Events" Size="196, 23" TextAlign="BottomCenter" Location="0, 159" />
-          <ListBox Name="lst_AssignedEvents" BackColor="Azure" Anchor="Bottom, Left, Right" Location="2, 191" Size="194, 108" />
+          <Label Name="lbl_AvailableEvents" TextAlign="BottomCenter" Anchor="Top, Left, Right" Size="300, 23" Text="Available Events" />
+          <ListBox Name="lst_AvailableEvents" BackColor="Azure" Size="300, 125" Location="2, 30" Anchor="Top, Bottom, Left, Right" />
+          <Label Name="lbl_AssignedEvents" Anchor="Bottom, Left, Right" Text="Assigned Events" Size="300, 23" TextAlign="BottomCenter" Location="0, 159" />
+          <ListBox Name="lst_AssignedEvents" BackColor="Azure" Anchor="Bottom, Left, Right" Location="2, 191" Size="300, 108" />
         </SplitterPanel>
       </SplitContainer>
     </Panel>
